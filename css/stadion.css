@@ -1,0 +1,16 @@
+.stadion {
+  width: 1253px;
+  height: 82px;
+}
+.stadion-header {
+  border: 1px solid var(--Light_Theme-Card-Border-Color, #e3e9ef);
+  background: var(--Light_Theme-Extra-Light-Green, #f4faf4);
+}
+.stadion-header__title {
+  color: var(--Light_Theme-Main_Typography, #031a32);
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 138.889% */
+}

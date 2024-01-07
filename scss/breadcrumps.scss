@@ -1,0 +1,71 @@
+.breadcrumbs {
+  position: relative;
+  padding: 10px 0;
+  padding-left: 42px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.ty-breadcrumbs {
+  margin-bottom: 0;
+}
+
+.ty-breadcrumbs__slash,
+.ty-breadcrumbs__slash-last {
+  position: relative;
+  margin: 0 5px 0 10px;
+  display: inline-block;
+}
+
+.ty-breadcrumbs__slash:before,
+.ty-breadcrumbs__slash-last:before {
+  content: url(https://www.seatsnet.com/design/themes/abt__youpitheme/media/images/icons/breadcrumbs_separator.svg);
+  position: absolute;
+  top: 50%;
+  right: 0;
+  margin-top: -14px;
+}
+
+.ty-breadcrumbs__a {
+  color: #0060c2;
+  font-size: 12px;
+  font-family: Mulish;
+  font-weight: 500;
+}
+
+.ty-breadcrumbs__current {
+  color: #232323;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 19px;
+}
+
+.breadcrumbs-btn {
+  // .breadcrumbs-btn__actions
+
+  &__actions {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  // .breadcrumbs-btn__actions-btn
+
+  &__actions-btn {
+    display: flex;
+    padding: 8px 10px 8px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 4px;
+    background: #181cdb;
+
+    color: var(--Light_Theme-Pure-White, #fff);
+    font-family: Mulish;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+  }
+}

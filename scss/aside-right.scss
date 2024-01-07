@@ -1,0 +1,419 @@
+.aside-right {
+  &__tickets {
+    &_block {
+      position: relative;
+      margin-top: 16px;
+      margin-bottom: 16px;
+      border-top: 1px solid #d7e5fd;
+      border-bottom: 1px solid #d7e5fd;
+      padding: 25px 10px;
+      cursor: pointer;
+
+      @media (max-width: 440px) {
+        padding: 16px 10px;
+      }
+
+      &-icon {
+        width: 22px;
+        height: 16px;
+        cursor: pointer;
+
+        svg {
+          path {
+            &:hover {
+              fill: #0306a7;
+            }
+          }
+        }
+      }
+
+      &-title {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+
+        span {
+          color: var(--OLD_LT-Main_Typography, #031a32);
+          font-family: Mulish;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 23px; /* 143.75% */
+        }
+      }
+    }
+
+    &_info {
+      display: flex;
+      align-items: center;
+      gap: 13px;
+      padding: 11px 0 14px 0;
+
+      &-ticket {
+        &:nth-child(1) {
+          color: #fff;
+          text-align: center;
+
+          /* Caption1/Bold/Left/13px */
+          font-family: Mulish;
+          font-size: 13px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 16px; /* 123.077% */
+
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          width: 75px;
+          height: 28px;
+          flex-shrink: 0;
+          border-radius: 10px 0px;
+          background: var(--LIGHT_Theme-Discount-Tag-new, #e15241);
+        }
+
+        &:nth-child(2) {
+          display: flex;
+          align-items: center;
+          padding-left: 7px;
+
+          color: #fff;
+
+          /* Badge/Bold/Center/10px */
+          font-family: Mulish;
+          font-size: 10px;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 13px; /* 130% */
+          text-transform: uppercase;
+
+          background-image: url("../img/Vector 4.svg");
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          width: 138.521px;
+          height: 21px;
+        }
+      }
+    }
+
+    &_price {
+      display: flex;
+      align-items: center;
+      padding-right: 30px;
+
+      &-title {
+        display: flex;
+        align-items: center;
+        margin-right: 30px;
+
+        svg {
+          width: 14px;
+          height: 14px;
+          position: relative;
+          top: 0.5px;
+        }
+      }
+
+      &-counter {
+        color: var(--OLD_LT-Main_Typography, #031a32);
+        font-feature-settings: "clig" off, "liga" off;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 20px; /* 125% */
+      }
+    }
+
+    &_counterBlock {
+      display: flex;
+      padding: 8px 7px;
+      align-items: center;
+      flex-shrink: 0;
+      border-radius: 4px;
+      border: 1px solid var(--Light_Theme-Final_Dark_Green, #388e3c);
+
+      &-minus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8.624px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: var(--Light_Theme-Green_Tag, #ecf7ec);
+        width: 24px;
+        height: 24px;
+      }
+
+      &-count {
+        width: 35px;
+        flex-shrink: 0;
+        color: var(--LIGHT_Theme-Final_Dark_Green, #388e3c);
+        text-align: center;
+        /* Heading/Bold/Left/17px */
+        font-family: Mulish;
+        font-size: 17px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 21px; /* 123.529% */
+      }
+
+      &-plus {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 8.624px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        background: var(--Light_Theme-Green_Tag, #ecf7ec);
+        width: 24px;
+        height: 24px;
+      }
+    }
+
+    &_price-buy {
+      margin-left: 40px;
+      color: #fff;
+
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 700;
+      text-transform: capitalize;
+      white-space: nowrap;
+
+      display: flex;
+      width: 104px;
+      height: 40px;
+      padding: 5px 20px;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+      border-radius: 4px;
+      background: #388e3c;
+
+      box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.25);
+
+      &:hover {
+        background: #257729;
+      }
+    }
+
+    &_seller {
+      // position: relative;
+    }
+
+    &_price-seller {
+      display: flex;
+      width: 104px;
+      padding: 6px 12px;
+      justify-content: center;
+      align-items: center;
+      gap: 6px;
+      position: absolute;
+      right: 10px;
+
+      top: 14px;
+      border-radius: 4px;
+      background: #f1faf1;
+
+      p {
+        color: var(--Light_Theme-Final_Dark_Green, #388e3c);
+        font-family: Mulish;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 15px; /* 125% */
+        white-space: nowrap;
+
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+    }
+
+    &_popup {
+      width: 363px;
+      height: 230px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #fff;
+
+      white-space: wrap;
+
+      position: absolute;
+      bottom: 0;
+      right: 0;
+      left: 0;
+
+      flex-direction: column;
+      align-items: center;
+      z-index: 10;
+
+      display: none;
+
+      &.active {
+        display: flex;
+      }
+
+      &-close {
+        width: 26px;
+        height: 28px;
+
+        position: absolute;
+        right: 18px;
+        top: 19px;
+      }
+
+      &-title {
+        color: var(--Light_Theme-Main_Typography, #031a32);
+        text-align: center;
+        /* Heading/Bold/Center/22px */
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 28px; /* 127.273% */
+        padding-bottom: 12px;
+        padding-top: 22px;
+
+        width: 326.89px;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+      }
+
+      &-subtitle {
+        width: 315.487px;
+        height: 146px;
+        flex-shrink: 0;
+        padding-top: 10px;
+
+        color: var(--Light_Theme-Main_Typography, #031a32);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px; /* 131.25% */
+      }
+    }
+  }
+}
+
+.aside-paginations__title {
+  padding: 11px 0 14px 0 !important;
+}
+
+.aside-paginations {
+  padding-bottom: 17px !important;
+}
+
+.aside-right__tickets_price-seller svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+}
+
+.aside-filter__btns_content {
+  position: relative;
+}
+
+.aside-filter__btns_container {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  top: 100%;
+  width: 375px;
+  height: 400px;
+  padding: 0 17px;
+  border-radius: 8px;
+  background: #fff;
+  z-index: 10;
+  padding: 20px;
+
+  display: none;
+
+  &.active {
+    display: block;
+  }
+
+  &-title {
+    color: var(--Light_Theme-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px; /* 125% */
+    margin-top: 20px;
+  }
+
+  .btn-close-filter {
+    position: absolute;
+    right: 19px;
+    top: 35px;
+  }
+}
+
+.aside-filter__btns_list {
+  margin-top: 38px;
+  width: 354px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  border: 1px solid var(--Light_Theme-Border_grey, #d0dae4);
+  background: #fff;
+  padding: 0 0 0 20px;
+
+  &-title {
+    cursor: pointer;
+    padding: 16px 0;
+    border-bottom: 1px solid #ebf2f9;
+
+    color: #031a32;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 20px; /* 100% */
+
+    &.active {
+      color: #181cdb;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+}
+
+.aside-filter__btns-btn-sort {
+  color: #181cdb !important;
+  text-align: right;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Mulish;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 24px; /* 133.333% */
+  text-decoration-line: underline;
+}
+
+.aside-right__tickets_popup {
+  @media (max-width: 440px) {
+    top: 37%;
+
+    &:last-child {
+      // top: -66%;
+    }
+  }
+}
+
+.aside-right__tickets {
+  .aside-right__tickets_block {
+    &:last-child {
+      .aside-right__tickets_popup {
+        top: -66%;
+      }
+    }
+  }
+}

@@ -1,0 +1,15 @@
+body {
+  background-color: #fbfdff;
+}
+
+@import "./basic";
+
+// STYLES
+@import "./haeder-top";
+@import "./breadcrumps";
+@import "./header-actions";
+@import "./aside-left";
+@import "./aside-right";
+@import "./stadion";
+@import "./block-card";
+@import "./media";

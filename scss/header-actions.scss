@@ -1,0 +1,265 @@
+.header-actions {
+  position: relative;
+  width: 100%;
+
+  &__left {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+    padding: 0 32px;
+
+    position: relative;
+  }
+
+  &__paragtaph {
+    padding: 12px 0;
+    color: var(--Light_Theme-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px; /* 118.75% */
+    padding-left: 42px;
+  }
+
+  &__input {
+    position: absolute;
+    right: 32px;
+    top: 92px;
+    display: flex;
+    align-items: center;
+
+    display: flex;
+    width: 29vw;
+    padding: 15px 15px 15px 16px;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 4px;
+    border: 1px solid #181cdb;
+
+    background: rgba(24, 28, 219, 0.1);
+
+    input {
+      background-color: transparent;
+      border: none;
+      outline: none;
+      width: 100%;
+      height: 100%;
+
+      color: rgba(0, 0, 0, 0.9);
+
+      /* Heading/Regular/Left/15px */
+      font-family: Mulish;
+      font-size: 15px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 19px; /* 126.667% */
+
+      &::placeholder {
+        color: rgba(0, 0, 0, 0.5);
+
+        /* Heading/Regular/Left/15px */
+        font-family: Mulish;
+        font-size: 15px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 19px; /* 126.667% */
+      }
+    }
+  }
+
+  &__information {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding-left: 42px;
+
+    &-btn {
+      display: flex;
+      padding: 4px 8px;
+      justify-content: center;
+      align-items: center;
+      gap: 4px;
+      border-radius: 4px;
+      background: #bdf5bd;
+      height: 28px;
+    }
+
+    &-title {
+      color: #17611a;
+      font-family: Mulish;
+      font-size: 14px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 18px; /* 128.571% */
+    }
+
+    &-icon {
+      width: 20px;
+      height: 20px;
+    }
+
+    &-time {
+      font-weight: 600 !important;
+    }
+  }
+}
+
+.header-actions {
+  // .header-actions__info
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  &__info {
+    position: relative;
+  }
+
+  // .header-actions__play
+
+  &__play {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    position: relative;
+  }
+
+  // .header-actions__back
+
+  &__back {
+    position: relative;
+    top: 3px;
+    right: 10px;
+  }
+
+  // .header-actions__team
+
+  &__team {
+    display: flex;
+    align-items: flex-end;
+    gap: 6px;
+  }
+
+  // .header-actions__team-name
+
+  &__team-name {
+    color: var(--OLD_LT-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px; /* 104.545% */
+    text-decoration-line: underline;
+  }
+
+  // .header-actions__team-comp
+
+  &__team-comp {
+    color: var(--OLD_LT-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+  }
+
+  // .header-actions__btns
+
+  &__btns {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  // .header-actions__btns-icon
+
+  &__btns-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+.tickets {
+  color: var(--OLD_LT-Main_Typography, #031a32);
+  font-family: Mulish;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 23px;
+}
+
+.breadcrumbs-btn__actions {
+  position: absolute;
+  right: 32px;
+  top: 20px;
+}
+.ty-breadcrumbs {
+  // .ty-breadcrumbs__a
+
+  &__a {
+  }
+
+  // .ty-breadcrumbs__slash
+
+  &__slash {
+  }
+
+  // .ty-breadcrumbs__slash-last
+
+  &__slash-last {
+  }
+
+  // .ty-breadcrumbs__current
+
+  &__current {
+  }
+}
+.la-liga {
+  color: var(--Light_Theme-Pure-White, #fff);
+  font-family: Mulish;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 18px; /* 150% */
+
+  display: flex;
+  height: 32px;
+  padding: 4px 8px;
+  align-items: center;
+  border-radius: 4px;
+  background: #181cdb;
+  margin-left: 32px;
+}
+
+.header-copyright {
+  padding: 8px 7px;
+  background: #f1faf1;
+
+  p {
+    color: var(--Light_Theme-Main_Typography, #031a32);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 15px;
+    width: 100%;
+    max-width: 360px;
+    margin: 0 auto;
+
+    span {
+      color: var(--Light_Theme-Main_Typography, #031a32);
+      font-family: Mulish;
+      font-size: 13px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 15px;
+    }
+  }
+
+  display: none;
+
+  @media (max-width: 440px) {
+    display: flex;
+  }
+}

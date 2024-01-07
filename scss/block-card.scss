@@ -1,0 +1,232 @@
+.block-card {
+  // .block-card__top
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  width: 410px;
+  height: 652px;
+  padding: 20px;
+  background-color: #fff;
+
+  display: none;
+  z-index: 10;
+
+  @media (max-width: 440px) {
+    width: 340px;
+  }
+
+  &.active {
+    display: block;
+  }
+
+  &__top {
+  }
+
+  .btn-close-card {
+    position: absolute;
+    top: 23px;
+    right: 26px;
+  }
+
+  // .block-card__title
+
+  &__title {
+    color: var(--Light_Theme-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px; /* 105.556% */
+    padding-bottom: 6px;
+  }
+
+  // .block-card__subtitle
+
+  &__subtitle {
+    padding-bottom: 12px;
+    color: var(--Light_Theme-Main_Typography, #031a32);
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 19px; /* 126.667% */
+  }
+
+  // .block-card__sublink
+
+  &__sublink {
+    color: #181cdb;
+    font-family: Mulish;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 19px; /* 126.667% */
+    text-decoration-line: underline;
+    padding-bottom: 20px;
+  }
+
+  // .block-card__info
+
+  &__info {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 1px;
+      width: 100%;
+      background-color: #d7e5fd;
+    }
+  }
+
+  // .block-card__info-item
+
+  &__info-item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 28px;
+
+    p {
+      position: absolute;
+      left: 7px;
+      z-index: 10;
+      color: #fff;
+      font-family: Mulish;
+      font-size: 10px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 13px; /* 130% */
+      text-transform: uppercase;
+    }
+  }
+
+  // .block-card__center
+
+  &__center {
+  }
+
+  // .block-card__price
+
+  &__price {
+    // .block-card__price_item
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      bottom: 0;
+      left: 0;
+      right: 0;
+      height: 0.5px;
+      width: 100%;
+      background-color: #d7e5fd;
+    }
+
+    &_item {
+    }
+
+    // .block-card__price_item-title
+
+    &_item-title {
+      color: var(--Light_Theme-Main_Typography, #031a32);
+      font-family: Mulish;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 19px; /* 158.333% */
+
+      padding-bottom: 2px;
+    }
+
+    // .block-card__price_item-price
+
+    &_item-price {
+      color: var(--OLD_LT-Main_Typography, #031a32);
+      font-feature-settings: "clig" off, "liga" off;
+      font-family: Mulish;
+      font-size: 20px;
+      font-style: normal;
+      font-weight: 700;
+
+      display: flex;
+      align-items: center;
+    }
+
+    // .block-card__price_ticket
+
+    &_ticket {
+      color: #fff;
+
+      text-align: center;
+      font-family: Mulish;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 700;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      width: 107.143px;
+      height: 40px;
+      flex-shrink: 0;
+      border-radius: 10px 0px;
+      background: var(--LIGHT_Theme-Discount-Tag-new, #e15241);
+    }
+  }
+
+  // .block-card__end
+
+  &__end {
+    margin-top: 24px;
+  }
+
+  // .block-card__btn-buy
+
+  &__btn-buy {
+    color: #fff;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px; /* 100% */
+    text-transform: capitalize;
+
+    display: flex;
+    width: 414px;
+    height: 48px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    border-radius: 8px;
+    background: #388e3c;
+  }
+
+  // .block-card__stadion
+
+  &__stadion {
+    margin-top: 12px;
+
+    img {
+      width: 100%;
+    }
+  }
+}

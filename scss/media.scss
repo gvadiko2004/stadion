@@ -1,0 +1,643 @@
+.stadion-container__img {
+  img {
+    width: 100vh;
+  }
+}
+
+.stadion-container {
+  height: 1144px !important;
+}
+
+.filter-by-btn {
+  display: none;
+}
+
+.aside-filter__btns-btn-filter {
+  display: none !important;
+}
+
+.media-counter-tickets {
+  display: none;
+}
+
+.la-liga-media {
+  display: none;
+}
+
+@media (max-width: 1920px) {
+  .header-actions__team-name {
+    font-size: clamp(1rem, 0.893rem + 0.54vw, 1.375rem);
+  }
+
+  .aside-right__tickets_price-buy {
+    font-size: 0.8vw;
+  }
+
+  .aside-right__tickets_price-buy {
+    margin-left: 2vw;
+  }
+
+  .header-actions__input {
+    top: 102px;
+    padding: 10px;
+  }
+
+  .aside-right__tickets_price-buy {
+    font-size: 0.8vw;
+  }
+
+  .aside-right__tickets_counterBlock {
+    padding: 0.5vw;
+  }
+
+  .aside-right__tickets_block-title span {
+    font-size: 0.8vw;
+  }
+}
+
+@media (max-width: 1440px) {
+  .wrapper .aside-left {
+    max-width: 240px;
+  }
+
+  .aside-filter__btns-btnMedia {
+    display: none !important;
+  }
+
+  .wrapper .aside-right {
+    max-width: 300px;
+  }
+
+  .aside-right__tickets_price-buy {
+    font-size: 1.1vw;
+    width: 100%;
+    margin: 0;
+    margin-top: 14px;
+  }
+
+  .aside-right__tickets_price {
+    flex-wrap: wrap;
+    padding-right: 0;
+  }
+
+  .aside-right__tickets_block-title span {
+    font-size: 0.9vw;
+  }
+
+  //   .wrapper .aside-filter__bottom_btns-btn:nth-child(2) {
+  //     font-size: 1.1vw;
+  //   }
+
+  //   .wrapper .aside-filter__bottom_btns-btn:nth-child(1) {
+  //     font-size: 1vw;
+  //   }
+
+  .header-actions__left-logo {
+    width: 200px;
+  }
+
+  .header-actions__left {
+    gap: 60px;
+  }
+
+  .stadion-container__img {
+    width: 500px;
+  }
+
+  .breadcrumbs-btn__actions-btn {
+    padding: 4px 8px 4px 14px;
+    font-size: 12px;
+  }
+
+  .breadcrumbs-btn__actions {
+    top: 16px;
+  }
+
+  .header-actions__play {
+    margin-top: 4px;
+  }
+
+  .header-actions__input {
+    width: 22vw;
+  }
+}
+
+@media (max-width: 1280px) {
+  .header-actions__input {
+    display: none;
+  }
+
+  .breadcrumbs-btn__actions {
+    display: none;
+  }
+
+  .la-liga {
+    display: none;
+  }
+
+  .aside-right__tickets_price-buy {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 900px) {
+  .wrapper-tickets {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .wrapper .aside-left {
+    position: absolute;
+    max-width: 100%;
+    height: 120%;
+    z-index: 100;
+
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    display: none;
+
+    &.active {
+      display: block;
+    }
+  }
+
+  .header-actions__left-logo {
+    display: none;
+  }
+
+  .stadion-container {
+    height: 500px !important;
+  }
+
+  .stadion-header {
+    display: none;
+  }
+
+  .wrapper .aside-right {
+    max-width: 100%;
+  }
+
+  .aside-right__tickets_block-title span {
+    font-size: 16px;
+  }
+
+  .stadion-container__info {
+    display: none;
+  }
+}
+
+@media (max-width: 440px) {
+  .header-top {
+    display: none;
+  }
+
+  .aside-rank__filterBtns-btn {
+    height: 35px !important;
+  }
+
+  .container-fluid-row .breadcrumbs-grid {
+    display: none;
+  }
+
+  .header-actions__team-name {
+    font-size: 16px;
+  }
+
+  .header-actions__left {
+    padding: 0 16px;
+  }
+
+  .header-actions__paragtaph {
+    font-size: 14px;
+    padding: 0;
+    padding-left: 32px;
+  }
+
+  .tickets {
+    font-size: 16px;
+  }
+
+  .header-actions__team {
+    white-space: nowrap;
+  }
+
+  .header-actions__play {
+    gap: 0;
+  }
+
+  .header-actions__back {
+    width: 23.002px;
+    height: 19.721px;
+
+    svg {
+      width: 23.002px;
+      height: 19.721px;
+    }
+  }
+
+  .header-actions__team-comp {
+    font-size: 16px;
+  }
+
+  .header-actions__paragtaph {
+    padding-left: 24px;
+    margin-top: 3px;
+  }
+
+  .header-actions__information {
+    padding-left: 24px;
+    margin-top: 7px;
+  }
+
+  .header-actions__information-title {
+    color: var(--Light_Theme-Final_Dark_Green, #388e3c);
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 150% */
+  }
+
+  .header-actions__information-btn {
+    background-color: transparent;
+
+    &:nth-child(4) {
+      display: none;
+    }
+  }
+
+  .la-liga-media {
+    display: block;
+    margin: 0;
+
+    display: flex;
+    height: 28px;
+    padding: 2px 8px;
+    align-items: center;
+    border-radius: 4px;
+    background: #181cdb;
+
+    font-size: 10px;
+  }
+
+  .breadcrumbs {
+    display: none;
+  }
+
+  .header-actions {
+    background: #f7faff;
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.25);
+    position: relative;
+    z-index: 8;
+  }
+
+  .header-actions__btns {
+    &-icon {
+      &:nth-child(1) {
+        display: none;
+      }
+
+      &:nth-child(2) {
+        position: absolute;
+        top: 30px;
+        right: -40px;
+      }
+    }
+  }
+
+  .header-actions__back {
+    width: 23.002px;
+    height: 19.721px;
+    top: -2px;
+  }
+
+  .stadion-container__img {
+    width: 500px;
+  }
+
+  .stadion-container {
+    height: 500px !important;
+  }
+
+  .aside-filter__btns_container {
+    position: fixed !important;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    width: 89% !important;
+    height: 100%;
+    z-index: 100;
+    top: 0;
+  }
+
+  .aside-filter__btns_list {
+    width: 94%;
+  }
+
+  .tickets {
+    font-weight: 700;
+  }
+
+  .aside-filter__btns-btn {
+    color: #181cdb;
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+    text-decoration: none;
+  }
+
+  .wrapper .aside-filter__btns {
+    flex-direction: row-reverse;
+  }
+
+  .aside-right__tickets {
+    max-height: 462px;
+    overflow-y: scroll;
+    padding-bottom: 12px;
+  }
+
+  .aside-right__tickets_price {
+    flex-wrap: nowrap;
+  }
+
+  .aside-right__tickets_price-buy {
+    margin: 0 0 0 40px;
+
+    display: flex;
+    width: 104px;
+    height: 33px;
+    padding: 5px 20px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+  }
+
+  .aside-right__tickets_price-title {
+    margin-right: 40px;
+  }
+
+  .header-actions__information-btn {
+    padding: 0;
+  }
+
+  .aside-filter__btns-btn-sort {
+    flex-direction: row-reverse;
+
+    svg {
+      width: 24px;
+      height: 24px;
+    }
+  }
+
+  .wrapper .aside-filter__btns-btn:nth-child(1) {
+    font-weight: 500;
+  }
+
+  .aside-right__tickets_price-seller {
+    svg {
+      width: 16px;
+      height: 16px;
+    }
+
+    p {
+      font-size: 10px;
+    }
+  }
+
+  .aside-filter__btns-btn-filter {
+    display: flex !important;
+    flex-direction: row-reverse;
+
+    color: #181cdb;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 18px; /* 112.5% */
+  }
+
+  .aside-filter__btns {
+    div {
+      &:nth-child(1) {
+        // display: none;
+      }
+    }
+  }
+
+  .aside-paginations__list-item {
+    padding: 16px;
+  }
+
+  .wrapper .aside-categories__filterBtns-btn.active {
+    width: 198px;
+    height: 48px;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
+  .aside-blocks__list-item.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .aside-tickets__list-item.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .aside-restrictions__list-item.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .aside-rank__list-item.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .aside-rank__filterBtns-btn.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+    height: 35px;
+  }
+
+  .aside-rank__filterBtns-btn.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .aside-filter__btns-btn-filter {
+    color: #181cdb !important;
+  }
+
+  .aside-rank__filterBtns-btn.active {
+    display: flex;
+    padding: 12px 16px;
+    align-items: center;
+    gap: 8px;
+    border-radius: 8px;
+    border: 1px solid var(--Light_Theme-Final_Dark_Blue, #1976d2);
+    background: var(--Light_Theme-Off-Blue, #f2f8fd);
+  }
+
+  .wrapper .aside-categories__filterBtns-btn {
+    width: 186px;
+    height: 40px;
+    border-radius: 8px;
+    justify-content: center;
+  }
+
+  .wrapper .aside-filter__bottom_btns-btn:nth-child(1) {
+    width: 50%;
+    height: 79.494px;
+  }
+  .wrapper .aside-filter__bottom_btns-btn:nth-child(2) {
+    width: 50%;
+    height: 79.494px;
+  }
+
+  .aside-rank__filterBtns {
+    padding-left: 10px;
+  }
+
+  .aside-filter__btns-btnMedia {
+    display: none;
+  }
+
+  .aside-filter__btns {
+    flex-direction: row !important;
+  }
+
+  .filter-by-btn {
+    display: block;
+    width: 27.313px;
+    height: 28.182px;
+  }
+
+  .aside-filter__btns_right {
+    height: 45px !important;
+    flex-shrink: 0;
+    background-color: #fff;
+    position: relative;
+
+    &::before {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 1px;
+      left: 50%;
+      transform: translateX(-50%);
+      top: 0;
+      bottom: 0;
+      background-color: #e3e9ef;
+    }
+  }
+
+  .aside-filter__btns_content {
+    padding-left: 50px;
+    padding-right: 50px;
+    white-space: nowrap;
+  }
+
+  .aside-right__tickets_block {
+    &:first-child {
+      margin-top: 12px !important;
+    }
+  }
+
+  .media-counter-tickets {
+    display: block;
+    padding-left: 32px;
+
+    p {
+      color: var(--Light_Theme-Main_Typography, #031a32);
+      font-family: Mulish;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 25px; /* 208.333% */
+    }
+  }
+
+  .aside-right__tickets {
+    gap: 12px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+    &::after {
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 1px;
+      left: 0;
+      right: 0;
+      top: 1px;
+      background-color: #e3e9ef;
+    }
+  }
+
+  .aside-right__tickets_block {
+    max-width: 380px;
+    width: 100%;
+    border: 1px solid #d7e5fd;
+    margin: 0 auto;
+  }
+
+  .stadion-container__img {
+    width: 270px;
+  }
+
+  .stadion-container {
+    height: 280px !important;
+  }
+}
+
+.aside-categories {
+  padding: 0 18px;
+}
+
+// .aside-filter__btns {
+//   div {
+//     &:nth-child(1) {
+//       display: none;
+//     }
+//   }
+// }
